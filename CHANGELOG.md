@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.31.0](https://github.com/usememos/memos/compare/v0.30.0...v0.31.0) (2026-08-02)
+
+
+### Features
+
+* **markdown:** unify tag syntax and recognition ([#6132](https://github.com/usememos/memos/issues/6132)) ([c68e3d5](https://github.com/usememos/memos/commit/c68e3d5bf98394d90c7137f29d0ae378de17e824))
+* **user:** define username format and mention syntax ([#6134](https://github.com/usememos/memos/issues/6134)) ([8648b97](https://github.com/usememos/memos/commit/8648b97b9e0ba3fe0de16362d8f99a5ee7f167b0))
+
+
+### Bug Fixes
+
+* **attachments:** link media to source memos ([c4221c6](https://github.com/usememos/memos/commit/c4221c6dfe51902d0c5f482802e670fda1b72751))
+* **editor:** restore Windows emoji input ([b4fefa9](https://github.com/usememos/memos/commit/b4fefa94d72cd381ccdd1dcb359ade0371203cce))
+* **markdown:** support word-internal apostrophes in tags ([#6135](https://github.com/usememos/memos/issues/6135)) ([d617f65](https://github.com/usememos/memos/commit/d617f652b01086b9619500a46dc1eb9b13e84046))
+* **ui:** keep select menus above parent popovers ([9328413](https://github.com/usememos/memos/commit/93284137970d2ac1bda29f9a8feb6da9c69e3db8))
+
+
+### Performance Improvements
+
+* **sse:** reduce redundant connections and fanout overhead ([dd18002](https://github.com/usememos/memos/commit/dd18002b12b8632d11b57fa3d33de244bba91476))
+
 ## [0.30.0](https://github.com/usememos/memos/compare/v0.29.1...v0.30.0) (2026-07-26)
 
 
