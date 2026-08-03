@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
+	"strconv"
 	"strings"
 	"syscall"
 
@@ -167,6 +168,19 @@ func init() {
 	viper.SetEnvPrefix("memos")
 	viper.SetEnvKeyReplacer(strings.NewReplacer("-", "_"))
 	viper.AutomaticEnv()
+
+	// Platform runtimes like Railway expose the listen port as PORT.
+	// Prefer explicit MEMOS_PORT, but fall back to PORT when present.
+	if _, hasMemosPort := os.LookupEnv("MEMOS_PORT"); !hasMemosPort {
+		if rawPort, hasPort := os.LookupEnv("PORT"); hasPort {
+			port, err := strconv.Atoi(rawPort)
+			if err == nil {
+				viper.Set("port", port)
+			} else {
+				slog.Warn("invalid PORT value, using configured/default port", "port", rawPort, "error", err)
+			}
+		}
+	}
 
 	rootCmd.AddCommand(versionCmd)
 }
