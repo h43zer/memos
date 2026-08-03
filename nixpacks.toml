@@ -1,0 +1,18 @@
+[phases.setup]
+nixPkgs = ["nodejs_24", "pnpm", "go_1_26"]
+
+[phases.install]
+cmds = ["cd web && pnpm install --frozen-lockfile"]
+
+[phases.build]
+cmds = [
+  "cd web && pnpm release",
+  "go build -ldflags='-w -s' -o out ./cmd/memos"
+]
+
+[start]
+cmd = "./out"[phases.build]
+cmds = ["go build -ldflags='-w -s' -o out ./cmd/memos"]
+
+[start]
+cmd = "./out"
