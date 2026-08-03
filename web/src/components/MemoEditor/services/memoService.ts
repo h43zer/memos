@@ -27,7 +27,12 @@ function extractInlineImages(newAttachments: Attachment[]): { imageMarkdown: str
   }
 
   const imageMarkdown = imageAttachments
-    .map((a) => `![${a.filename}](${getAttachmentUrl(a)})`)
+    .map((a) => {
+      // Markdown links break on raw spaces and some reserved characters.
+      // Encode the URL but keep path separators and query delimiters intact.
+      const markdownSafeUrl = encodeURI(getAttachmentUrl(a));
+      return `![${a.filename}](${markdownSafeUrl})`;
+    })
     .join("\n");
 
   return { imageMarkdown, nonImageAttachments };
