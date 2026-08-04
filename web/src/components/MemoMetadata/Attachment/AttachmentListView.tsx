@@ -197,7 +197,7 @@ const VisualGallery = ({ items, onPreview }: { items: VisualItem[]; onPreview?: 
   }
 
   return (
-    <div className={layout.containerClassName}>
+    <div className={cn("w-full", layout.containerClassName)}>
       {layout.cells.map(({ item, className, overlayLabel }) => (
         <CollageVisualItem
           key={item.id}
@@ -238,14 +238,19 @@ const DocsList = ({ attachments }: { attachments: Attachment[] }) => (
 
 const Divider = () => <div className="border-t border-border/70 opacity-80" />;
 
+/**
+ * Images and videos are embedded straight into the memo body — no section chrome — so they
+ * read as part of the post rather than as files hanging off it. Audio and documents stay in
+ * the "Attachments" section, where a filename and size are what the reader actually needs.
+ */
 const AttachmentListView = ({ attachments, onImagePreview }: AttachmentListViewProps) => {
   const { visual, audio, docs } = useMemo(() => separateAttachments(attachments), [attachments]);
   const visualItems = useMemo(() => buildAttachmentVisualItems(visual), [visual]);
   const previewItems = useMemo(() => visualItems.map((item) => item.previewItem), [visualItems]);
+  const audioItems = useMemo(() => audio.filter(isAudioAttachment), [audio]);
   const hasVisual = visualItems.length > 0;
-  const hasAudio = audio.length > 0;
+  const hasAudio = audioItems.length > 0;
   const hasDocs = docs.length > 0;
-  const hasMedia = hasVisual || hasAudio;
 
   if (attachments.length === 0) {
     return null;
@@ -257,21 +262,21 @@ const AttachmentListView = ({ attachments, onImagePreview }: AttachmentListViewP
   };
 
   return (
-    <MetadataSection
-      icon={PaperclipIcon}
-      title="Attachments"
-      count={visualItems.length + audio.length + docs.length}
-      contentClassName="flex flex-col gap-2 p-2"
-    >
-      {hasMedia && (
-        <div className="flex flex-col gap-2">
-          {hasVisual && <VisualGallery items={visualItems} onPreview={handlePreview} />}
-          {hasAudio && <AudioList attachments={audio.filter(isAudioAttachment)} compact />}
-        </div>
+    <>
+      {hasVisual && <VisualGallery items={visualItems} onPreview={handlePreview} />}
+      {(hasAudio || hasDocs) && (
+        <MetadataSection
+          icon={PaperclipIcon}
+          title="Attachments"
+          count={audioItems.length + docs.length}
+          contentClassName="flex flex-col gap-2 p-2"
+        >
+          {hasAudio && <AudioList attachments={audioItems} compact />}
+          {hasAudio && hasDocs && <Divider />}
+          {hasDocs && <DocsList attachments={docs} />}
+        </MetadataSection>
       )}
-      {hasMedia && hasDocs && <Divider />}
-      {hasDocs && <DocsList attachments={docs} />}
-    </MetadataSection>
+    </>
   );
 };
 

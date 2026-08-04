@@ -6,37 +6,8 @@ import type { Attachment } from "@/types/proto/api/v1/attachment_service_pb";
 import { AttachmentSchema } from "@/types/proto/api/v1/attachment_service_pb";
 import type { Memo } from "@/types/proto/api/v1/memo_service_pb";
 import { MemoSchema } from "@/types/proto/api/v1/memo_service_pb";
-import { getAttachmentUrl } from "@/utils/attachment";
 import type { EditorState } from "../state";
 import { uploadService } from "./uploadService";
-
-/**
- * Splits newly uploaded attachments into inline image markdown and remaining attachments.
- * Images are rendered as `![filename](url)` appended to the content.
- */
-function extractInlineImages(newAttachments: Attachment[]): { imageMarkdown: string; nonImageAttachments: Attachment[] } {
-  const imageAttachments: Attachment[] = [];
-  const nonImageAttachments: Attachment[] = [];
-
-  for (const attachment of newAttachments) {
-    if (attachment.type.startsWith("image/")) {
-      imageAttachments.push(attachment);
-    } else {
-      nonImageAttachments.push(attachment);
-    }
-  }
-
-  const imageMarkdown = imageAttachments
-    .map((a) => {
-      // Markdown links break on raw spaces and some reserved characters.
-      // Encode the URL but keep path separators and query delimiters intact.
-      const markdownSafeUrl = encodeURI(getAttachmentUrl(a));
-      return `![${a.filename}](${markdownSafeUrl})`;
-    })
-    .join("\n");
-
-  return { imageMarkdown, nonImageAttachments };
-}
 
 /**
  * Converts attachments to reference format for API requests.
@@ -112,17 +83,12 @@ export const memoService = {
   ): Promise<{ memoName: string; hasChanges: boolean }> {
     // 1. Upload local files first
     const newAttachments = await uploadService.uploadFiles(state.localFiles);
-    const { imageMarkdown, nonImageAttachments } = extractInlineImages(newAttachments);
-    const allAttachments = [...state.metadata.attachments, ...nonImageAttachments];
-    const finalContent = imageMarkdown
-      ? (state.content ? `${state.content}\n${imageMarkdown}` : imageMarkdown)
-      : state.content;
-    const effectiveState = imageMarkdown ? { ...state, content: finalContent } : state;
+    const allAttachments = [...state.metadata.attachments, ...newAttachments];
 
     // 2. Update existing memo
     if (options.memoName) {
       const prevMemo = await memoServiceClient.getMemo({ name: options.memoName });
-      const { mask, patch } = buildUpdateMask(prevMemo, effectiveState, allAttachments);
+      const { mask, patch } = buildUpdateMask(prevMemo, state, allAttachments);
 
       if (mask.size === 0) {
         return { memoName: prevMemo.name, hasChanges: false };
@@ -137,7 +103,7 @@ export const memoService = {
 
     // 3. Create new memo or comment
     const memoData = create(MemoSchema, {
-      content: finalContent,
+      content: state.content,
       visibility: state.metadata.visibility,
       attachments: toAttachmentReferences(allAttachments),
       relations: state.metadata.relations,
