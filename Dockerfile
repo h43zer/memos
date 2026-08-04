@@ -22,7 +22,7 @@ RUN apk add --no-cache git ca-certificates
 
 # Copy go mod files and download dependencies (cached layer)
 COPY go.mod go.sum ./
-RUN --mount=type=cache,target=/go/pkg/mod \
+RUN --mount=type=cache,id=go-mod,target=/go/pkg/mod \
     go mod download
 
 # Copy source code (use .dockerignore to exclude unnecessary files)
@@ -30,8 +30,8 @@ COPY . .
 COPY --from=frontend /frontend-build/server/router/frontend/dist ./server/router/frontend/dist
 
 ARG TARGETOS TARGETARCH VERSION=dev COMMIT=unknown
-RUN --mount=type=cache,target=/go/pkg/mod \
-    --mount=type=cache,target=/root/.cache/go-build \
+RUN --mount=type=cache,id=go-mod,target=/go/pkg/mod \
+    --mount=type=cache,id=go-build,target=/root/.cache/go-build \
     CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH \
     go build \
       -trimpath \
@@ -60,9 +60,7 @@ USER root
 # Set working directory to the writable volume
 WORKDIR /var/opt/memos
 
-# Data directory
-VOLUME /var/opt/memos
-
+# The data directory is provided by a Railway volume / compose volume mount.
 ENV TZ="UTC" \
     MEMOS_PORT="5230" \
     MEMOS_DATA="/var/opt/memos"
