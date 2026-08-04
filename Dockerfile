@@ -22,17 +22,14 @@ RUN apk add --no-cache git ca-certificates
 
 # Copy go mod files and download dependencies (cached layer)
 COPY go.mod go.sum ./
-RUN --mount=type=cache,id=go-mod,target=/go/pkg/mod \
-    go mod download
+RUN go mod download
 
 # Copy source code (use .dockerignore to exclude unnecessary files)
 COPY . .
 COPY --from=frontend /frontend-build/server/router/frontend/dist ./server/router/frontend/dist
 
 ARG TARGETOS TARGETARCH VERSION=dev COMMIT=unknown
-RUN --mount=type=cache,id=go-mod,target=/go/pkg/mod \
-    --mount=type=cache,id=go-build,target=/root/.cache/go-build \
-    CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH \
+RUN CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH \
     go build \
       -trimpath \
       -ldflags="-s -w -X github.com/usememos/memos/internal/version.Version=${VERSION} -X github.com/usememos/memos/internal/version.Commit=${COMMIT} -extldflags '-static'" \
