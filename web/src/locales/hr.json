@@ -245,7 +245,7 @@
       "image-download": "Preuzmite PNG",
       "image-download-failed": "Izvoz slike nije uspio",
       "image-downloaded": "Slika je spremljena",
-      "image-footer": "Podijeljeno s Memos",
+      "image-footer": "Podijeljeno s wemos",
       "image-share": "Dijeli sliku",
       "image-share-failed": "Dijeljenje slike nije uspjelo",
       "image-title": "Dijeli kao sliku",
@@ -660,10 +660,10 @@
       "add-provider": "Dodajte davatelja usluga",
       "api-key": "Ključ API",
       "api-key-required": "Potreban je ključ API.",
-      "byok-description": "Povežite OpenAI ili Gemini s API ključem s vlastitog računa. Memos poziva pružatelja usluga izravno s ovog poslužitelja.",
-      "byok-key-note": "Upotrijebite ključ s računa svog pružatelja usluga; Memos ne spaja dijeljene AI vjerodajnice.",
+      "byok-description": "Povežite OpenAI ili Gemini s API ključem s vlastitog računa. wemos poziva pružatelja usluga izravno s ovog poslužitelja.",
+      "byok-key-note": "Upotrijebite ključ s računa svog pružatelja usluga; wemos ne spaja dijeljene AI vjerodajnice.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos odabire podržane modele za značajke poput audio transkripcije.",
+      "byok-model-note": "wemos odabire podržane modele za značajke poput audio transkripcije.",
       "byok-storage-note": "Ključevi ostaju na ovoj instanci i maskirani su kada se učitaju postavke.",
       "byok-title": "Koristite vlastiti AI račun",
       "configured": "Konfigurirano",
@@ -671,7 +671,7 @@
       "default-endpoint": "Zadana krajnja točka",
       "delete-provider": "Izbrisati AI pružatelja usluga `{{title}}`?",
       "description": "Ključeve dobavljača daje vlasnik instance i koriste ih značajke AI na strani poslužitelja.",
-      "dialog-description": "Dodajte ključ s vlastitog računa pružatelja usluga. Memos koristi ugrađene modele za svakog pružatelja; ostavite ključ API prazan tijekom uređivanja kako biste zadržali pohranjeni ključ.",
+      "dialog-description": "Dodajte ključ s vlastitog računa pružatelja usluga. wemos koristi ugrađene modele za svakog pružatelja; ostavite ključ API prazan tijekom uređivanja kako biste zadržali pohranjeni ključ.",
       "edit-provider": "Uredi davatelja usluga",
       "endpoint": "Krajnja točka",
       "endpoint-hint": "Ostavite prazno za korištenje službene krajnje točke pružatelja usluga.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Promjene su privremene i mogu se poništiti.",
-    "banner-title": "Demo Memos",
-    "deploy-link": "Postavite svoj Memos"
+    "banner-title": "Demo wemos",
+    "deploy-link": "Postavite svoj wemos"
   },
   "attachment-library": {
     "actions": {

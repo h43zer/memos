@@ -18,8 +18,8 @@
   },
   "demo": {
     "banner-description": "Zmeny sú dočasné a možno ich resetovať.",
-    "banner-title": "Ukážka Memos",
-    "deploy-link": "Nasaďte svoj Memos"
+    "banner-title": "Ukážka wemos",
+    "deploy-link": "Nasaďte svoj wemos"
   },
   "attachment-library": {
     "actions": {
@@ -275,7 +275,7 @@
       "image-download": "Stiahnite si PNG",
       "image-download-failed": "Export obrázka zlyhal",
       "image-downloaded": "Obrázok bol uložený",
-      "image-footer": "Zdieľané z Memos",
+      "image-footer": "Zdieľané z wemos",
       "image-share": "Zdieľať obrázok",
       "image-share-failed": "Zdieľanie obrázka zlyhalo",
       "image-title": "Zdieľať ako obrázok",
@@ -422,10 +422,10 @@
       "add-provider": "Pridať poskytovateľa",
       "api-key": "kľúč API",
       "api-key-required": "Vyžaduje sa kľúč API.",
-      "byok-description": "Pripojte OpenAI alebo Gemini pomocou kľúča API z vášho vlastného účtu. Memos volá poskytovateľa priamo z tohto servera.",
-      "byok-key-note": "Použite kľúč z účtu poskytovateľa; Memos nezdružuje zdieľané poverenia AI.",
+      "byok-description": "Pripojte OpenAI alebo Gemini pomocou kľúča API z vášho vlastného účtu. wemos volá poskytovateľa priamo z tohto servera.",
+      "byok-key-note": "Použite kľúč z účtu poskytovateľa; wemos nezdružuje zdieľané poverenia AI.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos vyberá podporované modely pre funkcie, ako je prepis zvuku.",
+      "byok-model-note": "wemos vyberá podporované modely pre funkcie, ako je prepis zvuku.",
       "byok-storage-note": "Klávesy zostanú v tejto inštancii a pri načítaní nastavení sú maskované.",
       "byok-title": "Použite svoj vlastný účet AI",
       "configured": "Nakonfigurované",
@@ -433,7 +433,7 @@
       "default-endpoint": "Predvolený koncový bod",
       "delete-provider": "Odstrániť poskytovateľa AI `{{title}}`?",
       "description": "Kľúče poskytovateľa dodáva vlastník inštancie a používajú ich funkcie AI na strane servera.",
-      "dialog-description": "Pridajte kľúč z vlastného účtu poskytovateľa. Memos používa vstavané modely pre každého poskytovateľa; ponechajte kláves API počas úpravy prázdny, aby sa zachoval uložený kľúč.",
+      "dialog-description": "Pridajte kľúč z vlastného účtu poskytovateľa. wemos používa vstavané modely pre každého poskytovateľa; ponechajte kláves API počas úpravy prázdny, aby sa zachoval uložený kľúč.",
       "edit-provider": "Upraviť poskytovateľa",
       "endpoint": "Koncový bod",
       "endpoint-hint": "Ak chcete použiť oficiálny koncový bod poskytovateľa, nechajte prázdne.",

@@ -108,7 +108,7 @@ var (
 	}
 	versionCmd = &cobra.Command{
 		Use:   "version",
-		Short: "Print the current Memos version",
+		Short: "Print the current wemos version",
 		Run: func(_ *cobra.Command, _ []string) {
 			fmt.Println(version.GetCurrentVersion())
 		},
@@ -172,7 +172,7 @@ func init() {
 }
 
 func printGreetings(profile *profile.Profile) {
-	fmt.Printf("Memos %s started successfully!\n", profile.Version)
+	fmt.Printf("wemos %s started successfully!\n", profile.Version)
 
 	if profile.Demo {
 		fmt.Fprint(os.Stderr, "Development mode is enabled\n")
@@ -207,7 +207,7 @@ func printGreetings(profile *profile.Profile) {
 
 	fmt.Println()
 	fmt.Printf("Documentation: %s\n", "https://usememos.com")
-	fmt.Printf("Source code: %s\n", "https://github.com/usememos/memos")
+	fmt.Printf("Source code: %s\n", "https://github.com/h43zer/memos")
 	fmt.Println("\nHappy note-taking!")
 }
 

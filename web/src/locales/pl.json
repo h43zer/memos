@@ -264,7 +264,7 @@
       "image-download": "Pobierz PNG",
       "image-download-failed": "Nie udało się wyeksportować obrazu",
       "image-downloaded": "Obraz został zapisany",
-      "image-footer": "Udostępnione z Memos",
+      "image-footer": "Udostępnione z wemos",
       "image-share": "Udostępnij obraz",
       "image-share-failed": "Nie udało się udostępnić obrazu",
       "image-title": "Udostępnij jako obraz",
@@ -692,10 +692,10 @@
       "add-provider": "Dodaj dostawcę",
       "api-key": "Klucz API",
       "api-key-required": "Wymagany jest klucz API.",
-      "byok-description": "Połącz OpenAI lub Gemini z kluczem API z własnego konta. Memos wywołuje dostawcę bezpośrednio z tego serwera.",
-      "byok-key-note": "Użyj klucza z konta dostawcy; Memos nie zawiera współdzielonych poświadczeń AI.",
+      "byok-description": "Połącz OpenAI lub Gemini z kluczem API z własnego konta. wemos wywołuje dostawcę bezpośrednio z tego serwera.",
+      "byok-key-note": "Użyj klucza z konta dostawcy; wemos nie zawiera współdzielonych poświadczeń AI.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos wybiera obsługiwane modele dla funkcji takich jak transkrypcja audio.",
+      "byok-model-note": "wemos wybiera obsługiwane modele dla funkcji takich jak transkrypcja audio.",
       "byok-storage-note": "Klucze pozostają w tej instancji i są maskowane po załadowaniu ustawień.",
       "byok-title": "Użyj własnego konta AI",
       "configured": "Skonfigurowane",
@@ -703,7 +703,7 @@
       "default-endpoint": "Domyślny endpoint",
       "delete-provider": "Usunąć dostawcę AI `{{title}}`?",
       "description": "Klucze dostawcy są dostarczane przez właściciela instancji i używane przez funkcje AI po stronie serwera.",
-      "dialog-description": "Dodaj klucz z własnego konta dostawcy. Memos wykorzystuje wbudowane modele dla każdego dostawcy; pozostaw klucz API pusty podczas edycji, aby zachować zapisany klucz.",
+      "dialog-description": "Dodaj klucz z własnego konta dostawcy. wemos wykorzystuje wbudowane modele dla każdego dostawcy; pozostaw klucz API pusty podczas edycji, aby zachować zapisany klucz.",
       "edit-provider": "Edytuj dostawcę",
       "endpoint": "Endpoint",
       "endpoint-hint": "Pozostaw puste, aby użyć oficjalnego endpointu dostawcy.",
@@ -813,8 +813,8 @@
   },
   "demo": {
     "banner-description": "Zmiany mają charakter tymczasowy i mogą zostać zresetowane.",
-    "banner-title": "Demo Memos",
-    "deploy-link": "Wdróż swój Memos"
+    "banner-title": "Demo wemos",
+    "deploy-link": "Wdróż swój wemos"
   },
   "attachment-library": {
     "actions": {

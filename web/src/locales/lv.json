@@ -18,8 +18,8 @@
   },
   "demo": {
     "banner-description": "Izmaiņas ir īslaicīgas un var tikt atiestatītas.",
-    "banner-title": "Memos demonstrācija",
-    "deploy-link": "Izvietojiet savu Memos"
+    "banner-title": "wemos demonstrācija",
+    "deploy-link": "Izvietojiet savu wemos"
   },
   "attachment-library": {
     "actions": {
@@ -275,7 +275,7 @@
       "image-download": "Lejupielādēt PNG",
       "image-download-failed": "Neizdevās eksportēt attēlu",
       "image-downloaded": "Attēls saglabāts",
-      "image-footer": "Kopīgots no Memos",
+      "image-footer": "Kopīgots no wemos",
       "image-share": "Kopīgojiet attēlu",
       "image-share-failed": "Neizdevās kopīgot attēlu",
       "image-title": "Kopīgot kā attēlu",
@@ -422,10 +422,10 @@
       "add-provider": "Pievienojiet pakalpojumu sniedzēju",
       "api-key": "API atslēga",
       "api-key-required": "Nepieciešama API atslēga.",
-      "byok-description": "Savienojiet OpenAI vai Gemini ar API atslēgu no sava konta. Memos zvana pakalpojumu sniedzējam tieši no šī servera.",
-      "byok-key-note": "Izmantojiet atslēgu no sava pakalpojumu sniedzēja konta; Memos neapvieno koplietotos AI akreditācijas datus.",
+      "byok-description": "Savienojiet OpenAI vai Gemini ar API atslēgu no sava konta. wemos zvana pakalpojumu sniedzējam tieši no šī servera.",
+      "byok-key-note": "Izmantojiet atslēgu no sava pakalpojumu sniedzēja konta; wemos neapvieno koplietotos AI akreditācijas datus.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos atlasa atbalstītos modeļus tādām funkcijām kā audio transkripcija.",
+      "byok-model-note": "wemos atlasa atbalstītos modeļus tādām funkcijām kā audio transkripcija.",
       "byok-storage-note": "Taustiņi paliek šajā gadījumā un tiek maskēti, kad iestatījumi tiek ielādēti.",
       "byok-title": "Izmantojiet savu AI kontu",
       "configured": "Konfigurēts",
@@ -433,7 +433,7 @@
       "default-endpoint": "Noklusējuma galapunkts",
       "delete-provider": "Vai dzēst AI nodrošinātāju `{{title}}`?",
       "description": "Nodrošinātāja atslēgas nodrošina instances īpašnieks, un tās izmanto servera puses AI līdzekļi.",
-      "dialog-description": "Pievienojiet atslēgu no sava pakalpojumu sniedzēja konta. Memos izmanto iebūvētos modeļus katram pakalpojumu sniedzējam; rediģēšanas laikā atstājiet API atslēgu tukšu, lai saglabātu saglabāto atslēgu.",
+      "dialog-description": "Pievienojiet atslēgu no sava pakalpojumu sniedzēja konta. wemos izmanto iebūvētos modeļus katram pakalpojumu sniedzējam; rediģēšanas laikā atstājiet API atslēgu tukšu, lai saglabātu saglabāto atslēgu.",
       "edit-provider": "Rediģēt pakalpojumu sniedzēju",
       "endpoint": "Galapunkts",
       "endpoint-hint": "Atstājiet tukšu, lai izmantotu oficiālo nodrošinātāja galapunktu.",

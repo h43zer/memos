@@ -18,8 +18,8 @@
   },
   "demo": {
     "banner-description": "Muudatused on ajutised ja neid võidakse lähtestada.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Juurutage oma Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Juurutage oma wemos"
   },
   "attachment-library": {
     "actions": {
@@ -275,7 +275,7 @@
       "image-download": "Laadige alla PNG",
       "image-download-failed": "Kujutise eksportimine ebaõnnestus",
       "image-downloaded": "Pilt salvestatud",
-      "image-footer": "Jagatud Memos-st",
+      "image-footer": "Jagatud wemos-st",
       "image-share": "Jaga pilti",
       "image-share-failed": "Pildi jagamine ebaõnnestus",
       "image-title": "Jaga pildina",
@@ -422,10 +422,10 @@
       "add-provider": "Lisa teenusepakkuja",
       "api-key": "API võti",
       "api-key-required": "API võti on vajalik.",
-      "byok-description": "Ühendage OpenAI või Gemini oma konto võtmega API. Memos helistab teenusepakkujale otse sellest serverist.",
-      "byok-key-note": "Kasutage oma teenusepakkuja konto võtit; Memos ei koonda jagatud AI mandaate.",
+      "byok-description": "Ühendage OpenAI või Gemini oma konto võtmega API. wemos helistab teenusepakkujale otse sellest serverist.",
+      "byok-key-note": "Kasutage oma teenusepakkuja konto võtit; wemos ei koonda jagatud AI mandaate.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos valib toetatud mudelid selliste funktsioonide jaoks nagu heli transkriptsioon.",
+      "byok-model-note": "wemos valib toetatud mudelid selliste funktsioonide jaoks nagu heli transkriptsioon.",
       "byok-storage-note": "Klahvid jäävad sellele eksemplarile ja seadete laadimisel maskeeritakse.",
       "byok-title": "Kasutage oma AI kontot",
       "configured": "Seadistatud",
@@ -433,7 +433,7 @@
       "default-endpoint": "Vaikimisi lõpp-punkt",
       "delete-provider": "Kas kustutada AI pakkuja `{{title}}`?",
       "description": "Pakkuja võtmed tarnib eksemplari omanik ja neid kasutavad serveripoolsed AI funktsioonid.",
-      "dialog-description": "Lisage võti oma teenusepakkuja kontolt. Memos kasutab iga pakkuja jaoks sisseehitatud mudeleid; salvestatud võtme säilitamiseks jätke redigeerimise ajal võti API tühjaks.",
+      "dialog-description": "Lisage võti oma teenusepakkuja kontolt. wemos kasutab iga pakkuja jaoks sisseehitatud mudeleid; salvestatud võtme säilitamiseks jätke redigeerimise ajal võti API tühjaks.",
       "edit-provider": "Muuda pakkujat",
       "endpoint": "Lõpp-punkt",
       "endpoint-hint": "Ametliku pakkuja lõpp-punkti kasutamiseks jätke tühjaks.",

@@ -18,8 +18,8 @@
   },
   "demo": {
     "banner-description": "Muutokset ovat väliaikaisia ​​ja ne voidaan nollata.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Ota Memos käyttöön"
+    "banner-title": "wemos demo",
+    "deploy-link": "Ota wemos käyttöön"
   },
   "attachment-library": {
     "actions": {
@@ -275,7 +275,7 @@
       "image-download": "Lataa PNG",
       "image-download-failed": "Kuvan vienti epäonnistui",
       "image-downloaded": "Kuva tallennettu",
-      "image-footer": "Jaettu Memos:stä",
+      "image-footer": "Jaettu wemos:stä",
       "image-share": "Jaa kuva",
       "image-share-failed": "Kuvan jakaminen epäonnistui",
       "image-title": "Jaa kuvana",
@@ -422,10 +422,10 @@
       "add-provider": "Lisää palveluntarjoaja",
       "api-key": "API avain",
       "api-key-required": "API-avain vaaditaan.",
-      "byok-description": "Yhdistä OpenAI tai Gemini API-avaimella omalta tililtäsi. Memos soittaa palveluntarjoajalle suoraan tältä palvelimelta.",
-      "byok-key-note": "Käytä avainta palveluntarjoajan tililtäsi; Memos ei niputa jaettuja AI-tunnistetietoja.",
+      "byok-description": "Yhdistä OpenAI tai Gemini API-avaimella omalta tililtäsi. wemos soittaa palveluntarjoajalle suoraan tältä palvelimelta.",
+      "byok-key-note": "Käytä avainta palveluntarjoajan tililtäsi; wemos ei niputa jaettuja AI-tunnistetietoja.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos valitsee tuetut mallit ominaisuuksiin, kuten äänen transkriptioon.",
+      "byok-model-note": "wemos valitsee tuetut mallit ominaisuuksiin, kuten äänen transkriptioon.",
       "byok-storage-note": "Näppäimet pysyvät tässä tapauksessa ja peitetään, kun asetukset ladataan.",
       "byok-title": "Käytä omaa AI-tiliäsi",
       "configured": "Määritetty",
@@ -433,7 +433,7 @@
       "default-endpoint": "Oletuspäätepiste",
       "delete-provider": "Poistetaanko AI-toimittaja `{{title}}`?",
       "description": "Palveluntarjoajan avaimet toimittaa ilmentymän omistaja, ja niitä käyttävät palvelinpuolen AI-ominaisuudet.",
-      "dialog-description": "Lisää avain omalta palveluntarjoajaltasi. Memos käyttää sisäänrakennettuja malleja jokaiselle toimittajalle; Jätä API-avain tyhjäksi muokkauksen ajaksi säilyttääksesi tallennettu avain.",
+      "dialog-description": "Lisää avain omalta palveluntarjoajaltasi. wemos käyttää sisäänrakennettuja malleja jokaiselle toimittajalle; Jätä API-avain tyhjäksi muokkauksen ajaksi säilyttääksesi tallennettu avain.",
       "edit-provider": "Muokkaa palveluntarjoajaa",
       "endpoint": "Päätepiste",
       "endpoint-hint": "Jätä tyhjäksi käyttääksesi virallista palveluntarjoajan päätepistettä.",

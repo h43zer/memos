@@ -245,7 +245,7 @@
       "image-download": "Télécharger PNG",
       "image-download-failed": "Échec de l'exportation de l'image",
       "image-downloaded": "Image enregistrée",
-      "image-footer": "Partagé depuis Memos",
+      "image-footer": "Partagé depuis wemos",
       "image-share": "Partager l'image",
       "image-share-failed": "Échec du partage de l'image",
       "image-title": "Partager en tant qu'image",
@@ -660,10 +660,10 @@
       "add-provider": "Ajouter un fournisseur",
       "api-key": "Clé API",
       "api-key-required": "La clé API est requise.",
-      "byok-description": "Connectez OpenAI ou Gemini avec une clé API depuis votre propre compte. Memos appelle le fournisseur directement depuis ce serveur.",
-      "byok-key-note": "Utilisez une clé de votre compte fournisseur; Memos ne regroupe pas les informations d'identification AI partagées.",
+      "byok-description": "Connectez OpenAI ou Gemini avec une clé API depuis votre propre compte. wemos appelle le fournisseur directement depuis ce serveur.",
+      "byok-key-note": "Utilisez une clé de votre compte fournisseur; wemos ne regroupe pas les informations d'identification AI partagées.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos sélectionne les modèles pris en charge pour des fonctionnalités telles que la transcription audio.",
+      "byok-model-note": "wemos sélectionne les modèles pris en charge pour des fonctionnalités telles que la transcription audio.",
       "byok-storage-note": "Les clés restent sur cette instance et sont masquées lors du chargement des paramètres.",
       "byok-title": "Utilisez votre propre compte AI",
       "configured": "Configuré",
@@ -671,7 +671,7 @@
       "default-endpoint": "Point de terminaison par défaut",
       "delete-provider": "Supprimer le fournisseur AI `{{title}}`?",
       "description": "Les clés du fournisseur sont fournies par le propriétaire de l'instance et utilisées par les fonctionnalités AI côté serveur.",
-      "dialog-description": "Ajoutez une clé à partir de votre propre compte fournisseur. Memos utilise des modèles intégrés pour chaque fournisseur; laissez la clé API vide lors de l'édition pour conserver la clé stockée.",
+      "dialog-description": "Ajoutez une clé à partir de votre propre compte fournisseur. wemos utilise des modèles intégrés pour chaque fournisseur; laissez la clé API vide lors de l'édition pour conserver la clé stockée.",
       "edit-provider": "Modifier le fournisseur",
       "endpoint": "Point de terminaison",
       "endpoint-hint": "Laissez vide pour utiliser le point de terminaison du fournisseur officiel.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Les modifications sont temporaires et peuvent être réinitialisées.",
-    "banner-title": "Démo Memos",
-    "deploy-link": "Déployez votre Memos"
+    "banner-title": "Démo wemos",
+    "deploy-link": "Déployez votre wemos"
   },
   "attachment-library": {
     "actions": {

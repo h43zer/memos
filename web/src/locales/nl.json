@@ -245,7 +245,7 @@
       "image-download": "PNG downloaden",
       "image-download-failed": "Kan afbeelding niet exporteren",
       "image-downloaded": "Afbeelding opgeslagen",
-      "image-footer": "Gedeeld vanuit Memos",
+      "image-footer": "Gedeeld vanuit wemos",
       "image-share": "Deel afbeelding",
       "image-share-failed": "Kan afbeelding niet delen",
       "image-title": "Deel als afbeelding",
@@ -660,10 +660,10 @@
       "add-provider": "Aanbieder toevoegen",
       "api-key": "API-sleutel",
       "api-key-required": "API-sleutel is vereist.",
-      "byok-description": "Verbind OpenAI of Gemini met een API-sleutel uit uw eigen account. Memos belt de provider rechtstreeks vanaf deze server.",
-      "byok-key-note": "Gebruik een sleutel van uw provideraccount; Memos bundelt geen gedeelde AI-inloggegevens.",
+      "byok-description": "Verbind OpenAI of Gemini met een API-sleutel uit uw eigen account. wemos belt de provider rechtstreeks vanaf deze server.",
+      "byok-key-note": "Gebruik een sleutel van uw provideraccount; wemos bundelt geen gedeelde AI-inloggegevens.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos selecteert ondersteunde modellen voor functies zoals audiotranscriptie.",
+      "byok-model-note": "wemos selecteert ondersteunde modellen voor functies zoals audiotranscriptie.",
       "byok-storage-note": "Sleutels blijven op deze instantie en worden gemaskeerd wanneer instellingen worden geladen.",
       "byok-title": "Gebruik uw eigen AI-account",
       "configured": "Geconfigureerd",
@@ -671,7 +671,7 @@
       "default-endpoint": "Standaardeindpunt",
       "delete-provider": "AI-provider `{{title}}` verwijderen?",
       "description": "Providersleutels worden geleverd door de instantie-eigenaar en gebruikt door AI-functies op de server.",
-      "dialog-description": "Voeg een sleutel toe vanuit uw eigen provideraccount. Memos gebruikt voor elke provider ingebouwde modellen; laat de API-sleutel leeg tijdens het bewerken om de opgeslagen sleutel te behouden.",
+      "dialog-description": "Voeg een sleutel toe vanuit uw eigen provideraccount. wemos gebruikt voor elke provider ingebouwde modellen; laat de API-sleutel leeg tijdens het bewerken om de opgeslagen sleutel te behouden.",
       "edit-provider": "Aanbieder bewerken",
       "endpoint": "Eindpunt",
       "endpoint-hint": "Laat dit leeg om het officiële eindpunt van de provider te gebruiken.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Wijzigingen zijn tijdelijk en kunnen worden gereset.",
-    "banner-title": "Memos-demo",
-    "deploy-link": "Implementeer uw Memos"
+    "banner-title": "wemos-demo",
+    "deploy-link": "Implementeer uw wemos"
   },
   "attachment-library": {
     "actions": {

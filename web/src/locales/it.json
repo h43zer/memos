@@ -245,7 +245,7 @@
       "image-download": "Scarica PNG",
       "image-download-failed": "Impossibile esportare l'immagine",
       "image-downloaded": "Immagine salvata",
-      "image-footer": "Condiviso da Memos",
+      "image-footer": "Condiviso da wemos",
       "image-share": "Condividi l'immagine",
       "image-share-failed": "Impossibile condividere l'immagine",
       "image-title": "Condividi come immagine",
@@ -660,10 +660,10 @@
       "add-provider": "Aggiungi fornitore",
       "api-key": "Tasto API",
       "api-key-required": "È richiesta la chiave API.",
-      "byok-description": "Connetti OpenAI o Gemini con una chiave API dal tuo account. Memos chiama il provider direttamente da questo server.",
-      "byok-key-note": "Utilizza una chiave dal tuo account fornitore; Memos non raggruppa le credenziali AI condivise.",
+      "byok-description": "Connetti OpenAI o Gemini con una chiave API dal tuo account. wemos chiama il provider direttamente da questo server.",
+      "byok-key-note": "Utilizza una chiave dal tuo account fornitore; wemos non raggruppa le credenziali AI condivise.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos seleziona i modelli supportati per funzionalità come la trascrizione audio.",
+      "byok-model-note": "wemos seleziona i modelli supportati per funzionalità come la trascrizione audio.",
       "byok-storage-note": "Le chiavi rimangono su questa istanza e vengono mascherate quando vengono caricate le impostazioni.",
       "byok-title": "Utilizza il tuo account AI",
       "configured": "Configurato",
@@ -671,7 +671,7 @@
       "default-endpoint": "Endpoint predefinito",
       "delete-provider": "Eliminare il fornitore AI `{{title}}`?",
       "description": "Le chiavi del provider vengono fornite dal proprietario dell'istanza e utilizzate dalle funzionalità AI lato server.",
-      "dialog-description": "Aggiungi una chiave dal tuo account fornitore. Memos utilizza modelli integrati per ciascun provider; lasciare vuoto il tasto API durante la modifica per mantenere la chiave memorizzata.",
+      "dialog-description": "Aggiungi una chiave dal tuo account fornitore. wemos utilizza modelli integrati per ciascun provider; lasciare vuoto il tasto API durante la modifica per mantenere la chiave memorizzata.",
       "edit-provider": "Modifica fornitore",
       "endpoint": "Punto finale",
       "endpoint-hint": "Lascia vuoto per utilizzare l'endpoint ufficiale del provider.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Le modifiche sono temporanee e potrebbero essere ripristinate.",
-    "banner-title": "Dimostrazione Memos",
-    "deploy-link": "Distribuisci il tuo Memos"
+    "banner-title": "Dimostrazione wemos",
+    "deploy-link": "Distribuisci il tuo wemos"
   },
   "attachment-library": {
     "actions": {

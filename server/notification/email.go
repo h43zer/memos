@@ -117,8 +117,8 @@ func EmailConfigFromInstanceSetting(setting *storepb.InstanceNotificationSetting
 func NewTestEmailMessage(recipientEmail, replyTo string) *email.Message {
 	return &email.Message{
 		To:      []string{recipientEmail},
-		Subject: "[Memos] Test email",
-		Body:    "This is a test email from your Memos notification settings.",
+		Subject: "[wemos] Test email",
+		Body:    "This is a test email from your wemos notification settings.",
 		ReplyTo: replyTo,
 	}
 }
@@ -165,7 +165,7 @@ func (d *EmailDispatcher) buildMemoCommentEmailMessage(message *storepb.InboxMes
 		"",
 		fmt.Sprintf("%s commented on your memo.", senderName),
 		"",
-		"Open in Memos:",
+		"Open in wemos:",
 		url,
 		"",
 		"You are receiving this because you own this memo.",
@@ -173,7 +173,7 @@ func (d *EmailDispatcher) buildMemoCommentEmailMessage(message *storepb.InboxMes
 
 	return &email.Message{
 		To:      []string{receiver.Email},
-		Subject: fmt.Sprintf("[Memos] %s commented on your memo", senderName),
+		Subject: fmt.Sprintf("[wemos] %s commented on your memo", senderName),
 		Body:    strings.Join(body, "\n"),
 	}, nil
 }
@@ -197,7 +197,7 @@ func (d *EmailDispatcher) buildMemoMentionEmailMessage(message *storepb.InboxMes
 		"",
 		fmt.Sprintf("%s mentioned you in a memo.", senderName),
 		"",
-		"Open in Memos:",
+		"Open in wemos:",
 		url,
 		"",
 		"You are receiving this because you were mentioned in this memo.",
@@ -205,7 +205,7 @@ func (d *EmailDispatcher) buildMemoMentionEmailMessage(message *storepb.InboxMes
 
 	return &email.Message{
 		To:      []string{receiver.Email},
-		Subject: fmt.Sprintf("[Memos] %s mentioned you in a memo", senderName),
+		Subject: fmt.Sprintf("[wemos] %s mentioned you in a memo", senderName),
 		Body:    strings.Join(body, "\n"),
 	}, nil
 }

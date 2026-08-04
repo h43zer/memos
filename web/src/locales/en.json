@@ -10,7 +10,7 @@
     "media": "Media",
     "github-repository": "GitHub Repo",
     "official-website": "Official Website",
-    "powered-by": "Powered by Memos",
+    "powered-by": "Powered by wemos",
     "project": "Project",
     "web-clipper-platforms": "Chrome + Firefox"
   },
@@ -42,8 +42,8 @@
   },
   "demo": {
     "banner-description": "Feel free to explore! This demo is reset periodically.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Deploy your own Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Deploy your own wemos"
   },
   "attachment-library": {
     "actions": {
@@ -329,7 +329,7 @@
       "image-download": "Download PNG",
       "image-download-failed": "Failed to export image",
       "image-downloaded": "Image saved",
-      "image-footer": "Shared from Memos",
+      "image-footer": "Shared from wemos",
       "image-share": "Share image",
       "image-share-failed": "Failed to share image",
       "image-title": "Share as image",
@@ -453,8 +453,8 @@
         "some-description": "Some description..."
       },
       "create-first": "Create your first token",
-      "description": "Create and revoke the secret keys that let other apps use the Memos API as you.",
-      "about-description": "A personal access token (PAT) is a secret key that authenticates API requests as your account. Any app or script holding one — an MCP server, a CLI, a mobile client — can do everything you can do in Memos, until the token expires or you delete it. Send it as a Bearer credential in the Authorization header:",
+      "description": "Create and revoke the secret keys that let other apps use the wemos API as you.",
+      "about-description": "A personal access token (PAT) is a secret key that authenticates API requests as your account. Any app or script holding one — an MCP server, a CLI, a mobile client — can do everything you can do in wemos, until the token expires or you delete it. Send it as a Bearer credential in the Authorization header:",
       "empty-description": "A token lets a script or app call the API as you. It is shown once at creation, then listed here so you can revoke it.",
       "empty-title": "No access tokens yet",
       "expires": "Expires",
@@ -469,7 +469,7 @@
       "no-expiration": "No expiration",
       "title": "Access Tokens",
       "token": "Token",
-      "web-clipper-title": "Use a token with Memos Web Clipper"
+      "web-clipper-title": "Use a token with wemos Web Clipper"
     },
     "account": {
       "change-password": "Change password",
@@ -492,10 +492,10 @@
       "add-provider": "Add provider",
       "api-key": "API key",
       "api-key-required": "API key is required.",
-      "byok-description": "Connect OpenAI or Gemini with an API key from your own account. Memos calls the provider directly from this server.",
-      "byok-key-note": "Use a key from your provider account; Memos does not bundle shared AI credentials.",
+      "byok-description": "Connect OpenAI or Gemini with an API key from your own account. wemos calls the provider directly from this server.",
+      "byok-key-note": "Use a key from your provider account; wemos does not bundle shared AI credentials.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos selects supported models for features like audio transcription.",
+      "byok-model-note": "wemos selects supported models for features like audio transcription.",
       "byok-storage-note": "Keys stay on this instance and are masked when settings are loaded.",
       "byok-title": "Use your own AI account",
       "configured": "Configured",
@@ -503,7 +503,7 @@
       "default-endpoint": "Default endpoint",
       "delete-provider": "Delete AI provider `{{title}}`?",
       "description": "Provider keys are supplied by the instance owner and used by server-side AI features.",
-      "dialog-description": "Add a key from your own provider account. Memos uses built-in models for each provider; leave the API key blank while editing to keep the stored key.",
+      "dialog-description": "Add a key from your own provider account. wemos uses built-in models for each provider; leave the API key blank while editing to keep the stored key.",
       "edit-provider": "Edit provider",
       "endpoint": "Endpoint",
       "endpoint-hint": "Leave empty to use the official provider endpoint.",

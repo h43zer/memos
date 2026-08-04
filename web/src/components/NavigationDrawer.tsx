@@ -12,7 +12,7 @@ const NavigationDrawer = () => {
   const [open, setOpen] = useState(false);
   const { isOpen: isGlobalMemoEditorOpen } = useGlobalMemoEditor();
   const { generalSetting } = useInstance();
-  const title = generalSetting.customProfile?.title || "Memos";
+  const title = generalSetting.customProfile?.title || "wemos";
   const avatarUrl = generalSetting.customProfile?.logoUrl || "/full-logo.webp";
 
   useEffect(() => {

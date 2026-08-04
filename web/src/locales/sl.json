@@ -245,7 +245,7 @@
       "image-download": "Prenesite PNG",
       "image-download-failed": "Izvoz slike ni uspel",
       "image-downloaded": "Slika shranjena",
-      "image-footer": "V skupni rabi z Memos",
+      "image-footer": "V skupni rabi z wemos",
       "image-share": "Delite sliko",
       "image-share-failed": "Slike ni bilo mogoče deliti",
       "image-title": "Delite kot sliko",
@@ -660,10 +660,10 @@
       "add-provider": "Dodajte ponudnika",
       "api-key": "Ključ API",
       "api-key-required": "Potreben je ključ API.",
-      "byok-description": "Povežite OpenAI ali Gemini s ključem API iz svojega računa. Memos pokliče ponudnika neposredno s tega strežnika.",
-      "byok-key-note": "Uporabite ključ iz računa vašega ponudnika; Memos ne združuje skupnih poverilnic AI.",
+      "byok-description": "Povežite OpenAI ali Gemini s ključem API iz svojega računa. wemos pokliče ponudnika neposredno s tega strežnika.",
+      "byok-key-note": "Uporabite ključ iz računa vašega ponudnika; wemos ne združuje skupnih poverilnic AI.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos izbere podprte modele za funkcije, kot je zvočni prepis.",
+      "byok-model-note": "wemos izbere podprte modele za funkcije, kot je zvočni prepis.",
       "byok-storage-note": "Ključi ostanejo na tej instanci in so prikriti, ko se naložijo nastavitve.",
       "byok-title": "Uporabite svoj račun AI",
       "configured": "Konfigurirano",
@@ -671,7 +671,7 @@
       "default-endpoint": "Privzeta končna točka",
       "delete-provider": "Izbrisati ponudnika AI `{{title}}`?",
       "description": "Ključe ponudnika zagotovi lastnik primerka, uporabljajo pa jih funkcije AI na strani strežnika.",
-      "dialog-description": "Dodajte ključ iz svojega računa ponudnika. Memos uporablja vgrajene modele za vsakega ponudnika; med urejanjem pustite ključ API prazen, da obdržite shranjen ključ.",
+      "dialog-description": "Dodajte ključ iz svojega računa ponudnika. wemos uporablja vgrajene modele za vsakega ponudnika; med urejanjem pustite ključ API prazen, da obdržite shranjen ključ.",
       "edit-provider": "Uredi ponudnika",
       "endpoint": "Končna točka",
       "endpoint-hint": "Pustite prazno za uporabo uradne končne točke ponudnika.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Spremembe so začasne in jih je mogoče ponastaviti.",
-    "banner-title": "Demo Memos",
-    "deploy-link": "Namestite svoj Memos"
+    "banner-title": "Demo wemos",
+    "deploy-link": "Namestite svoj wemos"
   },
   "attachment-library": {
     "actions": {

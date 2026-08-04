@@ -245,7 +245,7 @@
       "image-download": "Download PNG",
       "image-download-failed": "Failed to export image",
       "image-downloaded": "Image saved",
-      "image-footer": "Shared from Memos",
+      "image-footer": "Shared from wemos",
       "image-share": "Share image",
       "image-share-failed": "Failed to share image",
       "image-title": "Share as image",
@@ -660,10 +660,10 @@
       "add-provider": "Add provider",
       "api-key": "API key",
       "api-key-required": "API key is required.",
-      "byok-description": "Connect OpenAI or Gemini with an API key from your own account. Memos calls the provider directly from this server.",
-      "byok-key-note": "Use a key from your provider account; Memos does not bundle shared AI credentials.",
+      "byok-description": "Connect OpenAI or Gemini with an API key from your own account. wemos calls the provider directly from this server.",
+      "byok-key-note": "Use a key from your provider account; wemos does not bundle shared AI credentials.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos selects supported models for features like audio transcription.",
+      "byok-model-note": "wemos selects supported models for features like audio transcription.",
       "byok-storage-note": "Keys stay on this instance and are masked when settings are loaded.",
       "byok-title": "Use your own AI account",
       "configured": "Configured",
@@ -671,7 +671,7 @@
       "default-endpoint": "Default endpoint",
       "delete-provider": "Delete AI provider `{{title}}`?",
       "description": "Provider keys are supplied by the instance owner and used by server-side AI features.",
-      "dialog-description": "Add a key from your own provider account. Memos uses built-in models for each provider; leave the API key blank while editing to keep the stored key.",
+      "dialog-description": "Add a key from your own provider account. wemos uses built-in models for each provider; leave the API key blank while editing to keep the stored key.",
       "edit-provider": "Edit provider",
       "endpoint": "Endpoint",
       "endpoint-hint": "Leave empty to use the official provider endpoint.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Feel free to explore! This demo is reset periodically.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Deploy your own Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Deploy your own wemos"
   },
   "attachment-library": {
     "actions": {

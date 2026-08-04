@@ -18,8 +18,8 @@
   },
   "demo": {
     "banner-description": "Modificările sunt temporare și pot fi resetate.",
-    "banner-title": "Demo Memos",
-    "deploy-link": "Implementați-vă Memos"
+    "banner-title": "Demo wemos",
+    "deploy-link": "Implementați-vă wemos"
   },
   "attachment-library": {
     "actions": {
@@ -275,7 +275,7 @@
       "image-download": "Descărcați PNG",
       "image-download-failed": "Nu s-a putut exporta imaginea",
       "image-downloaded": "Imaginea salvată",
-      "image-footer": "Distribuit de la Memos",
+      "image-footer": "Distribuit de la wemos",
       "image-share": "Distribuiți imaginea",
       "image-share-failed": "Nu s-a partajat imaginea",
       "image-title": "Distribuie ca imagine",
@@ -422,10 +422,10 @@
       "add-provider": "Adăugați furnizorul",
       "api-key": "Tasta API",
       "api-key-required": "Este necesară cheia API.",
-      "byok-description": "Conectați OpenAI sau Gemini cu o cheie API din propriul cont. Memos apelează furnizorul direct de pe acest server.",
-      "byok-key-note": "Utilizați o cheie din contul dvs. de furnizor; Memos nu include acreditările AI partajate.",
+      "byok-description": "Conectați OpenAI sau Gemini cu o cheie API din propriul cont. wemos apelează furnizorul direct de pe acest server.",
+      "byok-key-note": "Utilizați o cheie din contul dvs. de furnizor; wemos nu include acreditările AI partajate.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos selectează modele acceptate pentru funcții precum transcrierea audio.",
+      "byok-model-note": "wemos selectează modele acceptate pentru funcții precum transcrierea audio.",
       "byok-storage-note": "Cheile rămân pe această instanță și sunt mascate atunci când setările sunt încărcate.",
       "byok-title": "Utilizați propriul cont AI",
       "configured": "Configurat",
@@ -433,7 +433,7 @@
       "default-endpoint": "Punct final implicit",
       "delete-provider": "Ștergeți furnizorul AI `{{title}}`?",
       "description": "Cheile furnizorului sunt furnizate de proprietarul instanței și utilizate de caracteristicile AI de pe server.",
-      "dialog-description": "Adăugați o cheie din contul dvs. de furnizor. Memos folosește modele încorporate pentru fiecare furnizor; lăsați tasta API goală în timp ce editați pentru a păstra cheia stocată.",
+      "dialog-description": "Adăugați o cheie din contul dvs. de furnizor. wemos folosește modele încorporate pentru fiecare furnizor; lăsați tasta API goală în timp ce editați pentru a păstra cheia stocată.",
       "edit-provider": "Editați furnizorul",
       "endpoint": "Punct final",
       "endpoint-hint": "Lăsați necompletat pentru a utiliza punctul final al furnizorului oficial.",

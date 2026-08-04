@@ -18,8 +18,8 @@
   },
   "demo": {
     "banner-description": "Ændringer er midlertidige og kan blive nulstillet.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Implementer din Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Implementer din wemos"
   },
   "attachment-library": {
     "actions": {
@@ -275,7 +275,7 @@
       "image-download": "Download PNG",
       "image-download-failed": "Billedet kunne ikke eksporteres",
       "image-downloaded": "Billedet er gemt",
-      "image-footer": "Delt fra Memos",
+      "image-footer": "Delt fra wemos",
       "image-share": "Del billede",
       "image-share-failed": "Kunne ikke dele billedet",
       "image-title": "Del som billede",
@@ -422,10 +422,10 @@
       "add-provider": "Tilføj udbyder",
       "api-key": "API nøgle",
       "api-key-required": "API nøgle er påkrævet.",
-      "byok-description": "Forbind OpenAI eller Gemini med en API-nøgle fra din egen konto. Memos ringer til udbyderen direkte fra denne server.",
-      "byok-key-note": "Brug en nøgle fra din udbyderkonto; Memos samler ikke delte AI-legitimationsoplysninger.",
+      "byok-description": "Forbind OpenAI eller Gemini med en API-nøgle fra din egen konto. wemos ringer til udbyderen direkte fra denne server.",
+      "byok-key-note": "Brug en nøgle fra din udbyderkonto; wemos samler ikke delte AI-legitimationsoplysninger.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos vælger understøttede modeller til funktioner som lydtransskription.",
+      "byok-model-note": "wemos vælger understøttede modeller til funktioner som lydtransskription.",
       "byok-storage-note": "Nøgler forbliver på denne instans og maskeres, når indstillinger indlæses.",
       "byok-title": "Brug din egen AI-konto",
       "configured": "Konfigureret",
@@ -433,7 +433,7 @@
       "default-endpoint": "Standard slutpunkt",
       "delete-provider": "Slet AI udbyder `{{title}}`?",
       "description": "Udbydernøgler leveres af instansejeren og bruges af AI-funktioner på serversiden.",
-      "dialog-description": "Tilføj en nøgle fra din egen udbyderkonto. Memos bruger indbyggede modeller for hver udbyder; lad API-tasten være tom under redigering for at beholde den gemte nøgle.",
+      "dialog-description": "Tilføj en nøgle fra din egen udbyderkonto. wemos bruger indbyggede modeller for hver udbyder; lad API-tasten være tom under redigering for at beholde den gemte nøgle.",
       "edit-provider": "Rediger udbyder",
       "endpoint": "Slutpunkt",
       "endpoint-hint": "Lad stå tomt for at bruge det officielle udbyderslutpunkt.",

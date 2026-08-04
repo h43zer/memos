@@ -22,7 +22,7 @@ vi.mock("@/utils/i18n", () => ({
     (
       {
         "common.version": "Version",
-        "about.powered-by": "Powered by Memos",
+        "about.powered-by": "Powered by wemos",
       } as Record<string, string>
     )[key] ?? key,
 }));
@@ -46,7 +46,7 @@ describe("<About>", () => {
   it("renders the identity hero with linked version and commit chips", () => {
     render(<About />);
 
-    expect(screen.getByRole("heading", { name: "Memos" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "wemos" })).toBeInTheDocument();
     expect(screen.getByText(/Capture first/i)).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "v0.25.0" })).toHaveAttribute("href", "https://github.com/usememos/memos/releases/tag/v0.25.0");
     expect(screen.getByRole("link", { name: "0123456" })).toHaveAttribute(
@@ -104,7 +104,7 @@ describe("<About>", () => {
 
     expect(screen.getByRole("heading", { name: "Team Notes" })).toBeInTheDocument();
     expect(screen.getByText("Our shared scratchpad.")).toBeInTheDocument();
-    expect(screen.getByText("Powered by Memos")).toBeInTheDocument();
+    expect(screen.getByText("Powered by wemos")).toBeInTheDocument();
   });
 
   it("does not add nested horizontal page padding on mobile", () => {

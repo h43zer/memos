@@ -245,7 +245,7 @@
       "image-download": "BaixarPNG",
       "image-download-failed": "Falha ao exportar imagem",
       "image-downloaded": "Imagem salva",
-      "image-footer": "Compartilhado de Memos",
+      "image-footer": "Compartilhado de wemos",
       "image-share": "Compartilhar imagem",
       "image-share-failed": "Falha ao compartilhar imagem",
       "image-title": "Compartilhar como imagem",
@@ -660,10 +660,10 @@
       "add-provider": "Adicionar provedor",
       "api-key": "Chave API",
       "api-key-required": "A chave API é necessária.",
-      "byok-description": "Conecte OpenAI ou Gemini com uma chave API de sua própria conta. Memos chama o provedor diretamente deste servidor.",
-      "byok-key-note": "Use uma chave da conta do seu provedor; Memos não agrupa credenciais AI compartilhadas.",
+      "byok-description": "Conecte OpenAI ou Gemini com uma chave API de sua própria conta. wemos chama o provedor diretamente deste servidor.",
+      "byok-key-note": "Use uma chave da conta do seu provedor; wemos não agrupa credenciais AI compartilhadas.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos seleciona modelos suportados para recursos como transcrição de áudio.",
+      "byok-model-note": "wemos seleciona modelos suportados para recursos como transcrição de áudio.",
       "byok-storage-note": "As chaves permanecem nesta instância e são mascaradas quando as configurações são carregadas.",
       "byok-title": "Use sua própria conta AI",
       "configured": "Configurada",
@@ -671,7 +671,7 @@
       "default-endpoint": "Ponto de extremidade padrão",
       "delete-provider": "Excluir provedor AI `{{title}}`?",
       "description": "As chaves do provedor são fornecidas pelo proprietário da instância e usadas pelos recursos AI do lado do servidor.",
-      "dialog-description": "Adicione uma chave da sua própria conta de provedor. Memos usa modelos integrados para cada provedor; deixe a chave API em branco durante a edição para manter a chave armazenada.",
+      "dialog-description": "Adicione uma chave da sua própria conta de provedor. wemos usa modelos integrados para cada provedor; deixe a chave API em branco durante a edição para manter a chave armazenada.",
       "edit-provider": "Editar provedor",
       "endpoint": "Ponto final",
       "endpoint-hint": "Deixe em branco para usar o endpoint oficial do provedor.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "As alterações são temporárias e podem ser redefinidas.",
-    "banner-title": "Demonstração Memos",
-    "deploy-link": "Implante seu Memos"
+    "banner-title": "Demonstração wemos",
+    "deploy-link": "Implante seu wemos"
   },
   "attachment-library": {
     "actions": {

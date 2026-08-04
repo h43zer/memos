@@ -397,7 +397,7 @@ func (s *Store) checkMinimumUpgradeVersion(ctx context.Context) error {
 	// schemaVersion is either set but < 0.22.0, or empty on an initialized (legacy) DB.
 	currentVersion, _ := s.GetCurrentSchemaVersion()
 	return errors.Errorf(
-		"Your Memos installation is too old to upgrade directly.\n\n"+
+		"Your wemos installation is too old to upgrade directly.\n\n"+
 			"Your current version: %s\n"+
 			"Target version: %s\n"+
 			"Minimum required: v0.22.0 (May 2024)\n\n"+

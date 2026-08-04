@@ -245,7 +245,7 @@
       "image-download": "Last ned PNG",
       "image-download-failed": "Kunne ikke eksportere bildet",
       "image-downloaded": "Bildet er lagret",
-      "image-footer": "Delt fra Memos",
+      "image-footer": "Delt fra wemos",
       "image-share": "Del bildet",
       "image-share-failed": "Kunne ikke dele bildet",
       "image-title": "Del som bilde",
@@ -660,10 +660,10 @@
       "add-provider": "Legg til leverandør",
       "api-key": "API nøkkel",
       "api-key-required": "API-nøkkel er nødvendig.",
-      "byok-description": "Koble til OpenAI eller Gemini med en API-nøkkel fra din egen konto. Memos ringer leverandøren direkte fra denne serveren.",
-      "byok-key-note": "Bruk en nøkkel fra leverandørkontoen din; Memos pakker ikke delt AI-legitimasjon.",
+      "byok-description": "Koble til OpenAI eller Gemini med en API-nøkkel fra din egen konto. wemos ringer leverandøren direkte fra denne serveren.",
+      "byok-key-note": "Bruk en nøkkel fra leverandørkontoen din; wemos pakker ikke delt AI-legitimasjon.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos velger støttede modeller for funksjoner som lydtranskripsjon.",
+      "byok-model-note": "wemos velger støttede modeller for funksjoner som lydtranskripsjon.",
       "byok-storage-note": "Nøkler forblir på denne forekomsten og er maskert når innstillingene lastes.",
       "byok-title": "Bruk din egen AI-konto",
       "configured": "Konfigurert",
@@ -671,7 +671,7 @@
       "default-endpoint": "Standard endepunkt",
       "delete-provider": "Vil du slette AI-leverandøren `{{title}}`?",
       "description": "Leverandørnøkler leveres av instanseieren og brukes av AI-funksjoner på serversiden.",
-      "dialog-description": "Legg til en nøkkel fra din egen leverandørkonto. Memos bruker innebygde modeller for hver leverandør; la API-tasten stå tom mens du redigerer for å beholde den lagrede nøkkelen.",
+      "dialog-description": "Legg til en nøkkel fra din egen leverandørkonto. wemos bruker innebygde modeller for hver leverandør; la API-tasten stå tom mens du redigerer for å beholde den lagrede nøkkelen.",
       "edit-provider": "Rediger leverandør",
       "endpoint": "Endepunkt",
       "endpoint-hint": "La stå tomt for å bruke det offisielle leverandørens endepunkt.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Endringene er midlertidige og kan tilbakestilles.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Distribuer din Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Distribuer din wemos"
   },
   "attachment-library": {
     "actions": {

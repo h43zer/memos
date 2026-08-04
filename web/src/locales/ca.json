@@ -245,7 +245,7 @@
       "image-download": "Descarrega PNG",
       "image-download-failed": "No s'ha pogut exportar la imatge",
       "image-downloaded": "S'ha desat la imatge",
-      "image-footer": "Compartit des de Memos",
+      "image-footer": "Compartit des de wemos",
       "image-share": "Comparteix la imatge",
       "image-share-failed": "No s'ha pogut compartir la imatge",
       "image-title": "Comparteix com a imatge",
@@ -660,10 +660,10 @@
       "add-provider": "Afegeix un proveïdor",
       "api-key": "Tecla API",
       "api-key-required": "La clau API és necessària.",
-      "byok-description": "Connecteu OpenAI o Gemini amb una clau API del vostre compte. Memos truca al proveïdor directament des d'aquest servidor.",
-      "byok-key-note": "Utilitzeu una clau del vostre compte de proveïdor; Memos no agrupa les credencials AI compartides.",
+      "byok-description": "Connecteu OpenAI o Gemini amb una clau API del vostre compte. wemos truca al proveïdor directament des d'aquest servidor.",
+      "byok-key-note": "Utilitzeu una clau del vostre compte de proveïdor; wemos no agrupa les credencials AI compartides.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos selecciona models compatibles per a funcions com la transcripció d'àudio.",
+      "byok-model-note": "wemos selecciona models compatibles per a funcions com la transcripció d'àudio.",
       "byok-storage-note": "Les claus romanen en aquesta instància i s'emmascaren quan es carreguen la configuració.",
       "byok-title": "Utilitzeu el vostre compte AI",
       "configured": "Configurat",
@@ -671,7 +671,7 @@
       "default-endpoint": "Punt final per defecte",
       "delete-provider": "Vols suprimir el proveïdor AI `{{title}}`?",
       "description": "Les claus del proveïdor les proporciona el propietari de la instància i les fan servir les funcions AI del servidor.",
-      "dialog-description": "Afegiu una clau des del vostre compte de proveïdor. Memos utilitza models integrats per a cada proveïdor; deixeu la clau API en blanc mentre editeu per mantenir la clau emmagatzemada.",
+      "dialog-description": "Afegiu una clau des del vostre compte de proveïdor. wemos utilitza models integrats per a cada proveïdor; deixeu la clau API en blanc mentre editeu per mantenir la clau emmagatzemada.",
       "edit-provider": "Edita el proveïdor",
       "endpoint": "Punt final",
       "endpoint-hint": "Deixeu-lo en blanc per utilitzar el punt final del proveïdor oficial.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Els canvis són temporals i es poden restablir.",
-    "banner-title": "Memos demostració",
-    "deploy-link": "Desplegueu el vostre Memos"
+    "banner-title": "wemos demostració",
+    "deploy-link": "Desplegueu el vostre wemos"
   },
   "attachment-library": {
     "actions": {

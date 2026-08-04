@@ -245,7 +245,7 @@
       "image-download": "Laden Sie PNG herunter",
       "image-download-failed": "Bild konnte nicht exportiert werden",
       "image-downloaded": "Bild gespeichert",
-      "image-footer": "Geteilt von Memos",
+      "image-footer": "Geteilt von wemos",
       "image-share": "Bild teilen",
       "image-share-failed": "Bild konnte nicht geteilt werden",
       "image-title": "Als Bild teilen",
@@ -660,10 +660,10 @@
       "add-provider": "Anbieter hinzufügen",
       "api-key": "API-Taste",
       "api-key-required": "Der API-Schlüssel ist erforderlich.",
-      "byok-description": "Verbinden Sie OpenAI oder Gemini mit einem API-Schlüssel von Ihrem eigenen Konto. Memos ruft den Anbieter direkt von diesem Server aus auf.",
-      "byok-key-note": "Verwenden Sie einen Schlüssel aus Ihrem Provider-Konto; Memos bündelt keine gemeinsam genutzten AI-Anmeldeinformationen.",
+      "byok-description": "Verbinden Sie OpenAI oder Gemini mit einem API-Schlüssel von Ihrem eigenen Konto. wemos ruft den Anbieter direkt von diesem Server aus auf.",
+      "byok-key-note": "Verwenden Sie einen Schlüssel aus Ihrem Provider-Konto; wemos bündelt keine gemeinsam genutzten AI-Anmeldeinformationen.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos wählt unterstützte Modelle für Funktionen wie Audiotranskription aus.",
+      "byok-model-note": "wemos wählt unterstützte Modelle für Funktionen wie Audiotranskription aus.",
       "byok-storage-note": "Schlüssel bleiben auf dieser Instanz und werden beim Laden der Einstellungen maskiert.",
       "byok-title": "Verwenden Sie Ihr eigenes AI-Konto",
       "configured": "Konfiguriert",
@@ -671,7 +671,7 @@
       "default-endpoint": "Standardendpunkt",
       "delete-provider": "AI-Anbieter löschen `{{title}}`?",
       "description": "Anbieterschlüssel werden vom Instanzbesitzer bereitgestellt und von serverseitigen AI-Funktionen verwendet.",
-      "dialog-description": "Fügen Sie einen Schlüssel von Ihrem eigenen Anbieterkonto hinzu. Memos verwendet integrierte Modelle für jeden Anbieter; Lassen Sie die Taste API während der Bearbeitung leer, um den gespeicherten Schlüssel beizubehalten.",
+      "dialog-description": "Fügen Sie einen Schlüssel von Ihrem eigenen Anbieterkonto hinzu. wemos verwendet integrierte Modelle für jeden Anbieter; Lassen Sie die Taste API während der Bearbeitung leer, um den gespeicherten Schlüssel beizubehalten.",
       "edit-provider": "Anbieter bearbeiten",
       "endpoint": "Endpunkt",
       "endpoint-hint": "Lassen Sie das Feld leer, um den offiziellen Anbieterendpunkt zu verwenden.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Änderungen sind vorübergehend und können zurückgesetzt werden.",
-    "banner-title": "Memos-Demo",
-    "deploy-link": "Stellen Sie Ihr Memos bereit"
+    "banner-title": "wemos-Demo",
+    "deploy-link": "Stellen Sie Ihr wemos bereit"
   },
   "attachment-library": {
     "actions": {

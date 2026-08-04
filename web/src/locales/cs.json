@@ -245,7 +245,7 @@
       "image-download": "Stáhněte si PNG",
       "image-download-failed": "Export obrázku se nezdařil",
       "image-downloaded": "Obrázek uložen",
-      "image-footer": "Sdíleno z Memos",
+      "image-footer": "Sdíleno z wemos",
       "image-share": "Sdílet obrázek",
       "image-share-failed": "Sdílení obrázku se nezdařilo",
       "image-title": "Sdílet jako obrázek",
@@ -660,10 +660,10 @@
       "add-provider": "Přidat poskytovatele",
       "api-key": "klíč API",
       "api-key-required": "Je vyžadován klíč API.",
-      "byok-description": "Připojte OpenAI nebo Gemini pomocí klíče API z vašeho vlastního účtu. Memos volá poskytovatele přímo z tohoto serveru.",
-      "byok-key-note": "Použijte klíč z účtu poskytovatele; Memos nesdružuje sdílené přihlašovací údaje AI.",
+      "byok-description": "Připojte OpenAI nebo Gemini pomocí klíče API z vašeho vlastního účtu. wemos volá poskytovatele přímo z tohoto serveru.",
+      "byok-key-note": "Použijte klíč z účtu poskytovatele; wemos nesdružuje sdílené přihlašovací údaje AI.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos vybírá podporované modely pro funkce, jako je přepis zvuku.",
+      "byok-model-note": "wemos vybírá podporované modely pro funkce, jako je přepis zvuku.",
       "byok-storage-note": "Klíče zůstávají v této instanci a jsou maskovány při načítání nastavení.",
       "byok-title": "Použijte svůj vlastní účet AI",
       "configured": "Nakonfigurováno",
@@ -671,7 +671,7 @@
       "default-endpoint": "Výchozí koncový bod",
       "delete-provider": "Smazat poskytovatele AI `{{title}}`?",
       "description": "Klíče poskytovatele dodává vlastník instance a používají je funkce AI na straně serveru.",
-      "dialog-description": "Přidejte klíč ze svého vlastního účtu poskytovatele. Memos používá vestavěné modely pro každého poskytovatele; ponechejte klávesu API při úpravách prázdnou, aby se zachoval uložený klíč.",
+      "dialog-description": "Přidejte klíč ze svého vlastního účtu poskytovatele. wemos používá vestavěné modely pro každého poskytovatele; ponechejte klávesu API při úpravách prázdnou, aby se zachoval uložený klíč.",
       "edit-provider": "Upravit poskytovatele",
       "endpoint": "Koncový bod",
       "endpoint-hint": "Chcete-li použít oficiální koncový bod poskytovatele, ponechte prázdné.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Změny jsou dočasné a lze je resetovat.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Nasaďte svůj Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Nasaďte svůj wemos"
   },
   "attachment-library": {
     "actions": {

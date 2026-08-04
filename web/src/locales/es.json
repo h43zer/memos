@@ -245,7 +245,7 @@
       "image-download": "Descargar PNG",
       "image-download-failed": "No se pudo exportar la imagen",
       "image-downloaded": "Imagen guardada",
-      "image-footer": "Compartido desde Memos",
+      "image-footer": "Compartido desde wemos",
       "image-share": "Compartir imagen",
       "image-share-failed": "No se pudo compartir la imagen",
       "image-title": "Compartir como imagen",
@@ -660,10 +660,10 @@
       "add-provider": "Agregar proveedor",
       "api-key": "clave API",
       "api-key-required": "Se requiere la clave API.",
-      "byok-description": "Conecte OpenAI o Gemini con una clave API de su propia cuenta. Memos llama al proveedor directamente desde este servidor.",
-      "byok-key-note": "Utilice una clave de su cuenta de proveedor; Memos no incluye credenciales AI compartidas.",
+      "byok-description": "Conecte OpenAI o Gemini con una clave API de su propia cuenta. wemos llama al proveedor directamente desde este servidor.",
+      "byok-key-note": "Utilice una clave de su cuenta de proveedor; wemos no incluye credenciales AI compartidas.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos selecciona modelos compatibles para funciones como la transcripción de audio.",
+      "byok-model-note": "wemos selecciona modelos compatibles para funciones como la transcripción de audio.",
       "byok-storage-note": "Las claves permanecen en esta instancia y se enmascaran cuando se cargan las configuraciones.",
       "byok-title": "Utilice su propia cuenta AI",
       "configured": "Configurada",
@@ -671,7 +671,7 @@
       "default-endpoint": "Punto final predeterminado",
       "delete-provider": "¿Eliminar el proveedor AI `{{title}}`?",
       "description": "Las claves de proveedor las proporciona el propietario de la instancia y las utilizan las funciones AI del lado del servidor.",
-      "dialog-description": "Agregue una clave de su propia cuenta de proveedor. Memos utiliza modelos integrados para cada proveedor; deje la clave API en blanco mientras edita para conservar la clave almacenada.",
+      "dialog-description": "Agregue una clave de su propia cuenta de proveedor. wemos utiliza modelos integrados para cada proveedor; deje la clave API en blanco mientras edita para conservar la clave almacenada.",
       "edit-provider": "Editar proveedor",
       "endpoint": "Punto final",
       "endpoint-hint": "Déjelo vacío para utilizar el punto final del proveedor oficial.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Los cambios son temporales y pueden restablecerse.",
-    "banner-title": "Demostración de Memos",
-    "deploy-link": "Implementa tu Memos"
+    "banner-title": "Demostración de wemos",
+    "deploy-link": "Implementa tu wemos"
   },
   "attachment-library": {
     "actions": {

@@ -245,7 +245,7 @@
       "image-download": "Ladda ner PNG",
       "image-download-failed": "Det gick inte att exportera bilden",
       "image-downloaded": "Bilden sparad",
-      "image-footer": "Delas från Memos",
+      "image-footer": "Delas från wemos",
       "image-share": "Dela bild",
       "image-share-failed": "Det gick inte att dela bilden",
       "image-title": "Dela som bild",
@@ -660,10 +660,10 @@
       "add-provider": "Lägg till leverantör",
       "api-key": "API-nyckel",
       "api-key-required": "API-nyckel krävs.",
-      "byok-description": "Anslut OpenAI eller Gemini med en API-nyckel från ditt eget konto. Memos ringer leverantören direkt från denna server.",
-      "byok-key-note": "Använd en nyckel från ditt leverantörskonto; Memos paketerar inte delade AI-uppgifter.",
+      "byok-description": "Anslut OpenAI eller Gemini med en API-nyckel från ditt eget konto. wemos ringer leverantören direkt från denna server.",
+      "byok-key-note": "Använd en nyckel från ditt leverantörskonto; wemos paketerar inte delade AI-uppgifter.",
       "byok-label": "BYOK",
-      "byok-model-note": "Memos väljer modeller som stöds för funktioner som ljudtranskription.",
+      "byok-model-note": "wemos väljer modeller som stöds för funktioner som ljudtranskription.",
       "byok-storage-note": "Nycklar stannar på den här instansen och maskeras när inställningarna laddas.",
       "byok-title": "Använd ditt eget AI-konto",
       "configured": "Konfigurerad",
@@ -671,7 +671,7 @@
       "default-endpoint": "Standardslutpunkt",
       "delete-provider": "Ta bort AI-leverantören `{{title}}`?",
       "description": "Providernycklar tillhandahålls av instansägaren och används av AI-funktioner på serversidan.",
-      "dialog-description": "Lägg till en nyckel från ditt eget leverantörskonto. Memos använder inbyggda modeller för varje leverantör; lämna API-tangenten tom medan du redigerar för att behålla den lagrade nyckeln.",
+      "dialog-description": "Lägg till en nyckel från ditt eget leverantörskonto. wemos använder inbyggda modeller för varje leverantör; lämna API-tangenten tom medan du redigerar för att behålla den lagrade nyckeln.",
       "edit-provider": "Redigera leverantör",
       "endpoint": "Slutpunkt",
       "endpoint-hint": "Lämna tomt för att använda den officiella leverantörens slutpunkt.",
@@ -781,8 +781,8 @@
   },
   "demo": {
     "banner-description": "Ändringar är tillfälliga och kan återställas.",
-    "banner-title": "Memos demo",
-    "deploy-link": "Distribuera din Memos"
+    "banner-title": "wemos demo",
+    "deploy-link": "Distribuera din wemos"
   },
   "attachment-library": {
     "actions": {
